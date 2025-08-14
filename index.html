@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UpStruct</title>
+    <link
+      rel="icon"
+      href="images/icons/logo-icon.png"
+      type="image/png"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Links to CSS -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <!-- HEADER & Sidebar-->
+    <header>
+      <div class="left-section">
+        <img
+          class="header-menu-icon"
+          src="images/icons/menu-icon.png"
+          id="openSidebarBtn"
+        />
+        <div class="header-logo">
+          <a href="/index.html">
+            <img
+              class="logo-image"
+              src="images/icons/logo-icon.png"
+            />
+          </a>
+          <a href="index.html">
+            <p class="logo-name">UpStruct</p>
+          </a>
+        </div>
+      </div>
+      <div class="middle-section">
+        <a class="active-page" href="/index.html"
+          >Home</a
+        >
+        <a
+          class="non-active-page"
+          href="überuns.html"
+          >Über Uns</a
+        >
+        <a
+          class="non-active-page"
+          href="kontakt.html"
+          >Kontakt</a
+        >
+        <a
+          class="non-active-page"
+          href="preise&pakete.html"
+          >Preise & Pakete</a
+        >
+      </div>
+      <div class="right-section">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img
+            class="social-img"
+            src="images/icons/facebook-icon.png"
+          />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img
+            class="social-img"
+            src="images/icons/instagram_icon.png"
+          />
+        </a>
+        <a href="https://www.x.com/" target="_blank">
+          <img
+            class="social-img"
+            src="images/icons/x-icon.png"
+          />
+        </a>
+      </div>
+    </header>
+    <div id="sidebar" class="sidebar">
+      <div class="sidebar-content">
+        <div class="navigation-container">
+          <p class="navigation-title">Navigation</p>
+          <a
+            class="sidebar-link-active"
+            href="index.html"
+          >
+            <img
+              class="sidebar-icon"
+              src="images/icons/home-icon.png"
+            />
+            <p class="sidebar-link-name">Home</p>
+          </a>
+          <a
+            class="sidebar-link"
+            href="überuns.html"
+          >
+            <img
+              class="sidebar-icon"
+              src="images/icons/überUns-icon.png"
+            />
+            <p class="sidebar-link-name">Über Uns</p>
+          </a>
+          <a
+            class="sidebar-link"
+            href="kontakt.html"
+          >
+            <img
+              class="sidebar-icon"
+              src="images/icons/kontakt-icon.png"
+            />
+            <p class="sidebar-link-name">Kontakt</p>
+          </a>
+          <a
+            class="sidebar-link"
+            href="preise&pakete.html"
+          >
+            <img
+              class="sidebar-icon"
+              src="pakete-preise.icon.png"
+            />
+            <p class="sidebar-link-name">Preise & Pakete</p>
+          </a>
+        </div>
+        <div class="sidebar-socials-container">
+          <p class="sidebar-social-title">Socials</p>
+          <a
+            class="sidebar-link"
+            href="https://www.facebook.com/"
+            target="_blank"
+          >
+            <img
+              class="sidebar-social-img"
+              src="images/icons/facebook-icon.png"
+            />
+            <p class="sidebar-link-name">Facebook</p>
+          </a>
+          <a
+            class="sidebar-link"
+            href="https://www.instagram.com/"
+            target="_blank"
+          >
+            <img
+              class="sidebar-social-img"
+              src="images/icons/instagram_icon.png"
+            />
+            <p class="sidebar-link-name">Instagram</p>
+          </a>
+          <a class="sidebar-link" href="https://www.x.com/" target="_blank">
+            <img
+              class="sidebar-social-img"
+              src="images/icons/x-icon.png"
+            />
+            <p class="sidebar-link-name">X</p>
+          </a>
+        </div>
+        <div class="sidebar-contact-container">
+          <a
+            class="sidebar-contact-link"
+            href="kontakt.html"
+          >
+            <img
+              class="sidebar-icon"
+              src="images/icons/kontakt-icon.png"
+            />
+            <p class="sidebar-link-name">Kontaktiere uns</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <main id="mainContent">
+      <div class="heroSection">
+        <div class="heroSection-content">
+          <p class="heroSection-headline">
+            Digitale Strukturen für <span>nachhaltigen Erfolg</span>
+          </p>
+          <p class="heroSection-catchphrase">
+            Wir entwickeln die Visitenkarten der Zukunft
+          </p>
+          <div class="heroSection-btnContainer">
+            <a href="kontakt.html">
+              <button class="heroSection-button">Kontakt</button>
+            </a>
+            <a href="preise&pakete.html">
+              <button class="heroSection-button">Pakete</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="überUns">
+        <p class="überUns-headline">Über Uns</p>
+        <div class="überUns-Content">
+          <img
+            class="überUns-Image"
+            src="images/icons/logo-icon.png"
+            alt="überUns-Image"
+          />
+          <p class="überUns-text">
+            Bei UpStruct gestalten wir moderne, leistungsstarke Websites, die
+            perfekt zu Ihrem Unternehmen passen. Unser Ziel ist es, Design und
+            Funktionalität so zu verbinden, dass Ihre Marke online glänzt und
+            Ihre Kunden überzeugt.Mit klarer Struktur, maßgeschneiderten
+            Lösungen und einem Auge fürs Detail setzen wir Ihre Ideen um
+            zuverlässig, effizient und immer auf dem neuesten Stand der Technik.
+          </p>
+        </div>
+      </div>
+      <div class="unserVersprechen">
+        <p class="unserVersprechen-headline">Unser Versprechen</p>
+        <div class="unsereVersprechen-Container">
+          <div class="versprechen-container">
+            <p class="versprechen-headline">Individuelles Design</p>
+            <img
+              class="versprechen-icon"
+              src="images/icons/individuelles-design-icon.png"
+            />
+            <p class="versprechen-content">
+              Keine Templates, sondern maßgeschneiderte Lösungen
+            </p>
+          </div>
+          <div class="versprechen-container">
+            <p class="versprechen-headline">Schnelle Umsetzung</p>
+            <img
+              class="versprechen-icon"
+              src="images/icons/schnelle-umsetzung.icon.png"
+            />
+            <p class="versprechen-content">
+              Effiziente Prozesse für pünktliche Ergebnisse
+            </p>
+          </div>
+          <div class="versprechen-container">
+            <p class="versprechen-headline">Top Qualität</p>
+            <img
+              class="versprechen-icon"
+              src="images/icons/top-qualität-icon.png"
+            />
+            <p class="versprechen-content">
+              Sauberer Code, modernes Design und optimierte Ladezeiten
+            </p>
+          </div>
+          <div class="versprechen-container">
+            <p class="versprechen-headline">Klare Preise</p>
+            <img
+              class="versprechen-icon"
+              src="images/icons/klare-preise-icon.png"
+            />
+            <p class="versprechen-content">
+              Festpreise dank klar definierter Pakete
+            </p>
+          </div>
+          <div class="versprechen-container">
+            <p class="versprechen-headline">Persöhnlicher Service</p>
+            <img
+              class="versprechen-icon"
+              src="images/icons/persöhnlicher-service-icon.png"
+            />
+            <p class="versprechen-content">
+              Direkter Ansprechpartner und transparente Kommunikation
+            </p>
+          </div>
+          <div class="versprechen-container">
+            <p class="versprechen-headline">SEO & DSGVO</p>
+            <img
+              class="versprechen-icon"
+              src="images/icons/seo-icon.png"
+            />
+            <p class="versprechen-content">
+              Suchmaschinen-freundlich und rechtlich auf der sicheren Seite
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Beliebte Pakete -->
+      <div class="beliebtePakete">
+        <p class="beliebtePakete-headline">Beliebte Pakete</p>
+
+        <!-- Linker Button -->
+        <button class="rotation-button left">
+          <img
+            class="arrow-back-icon"
+            src="images/icons/arrow-back-icon.png"
+          />
+        </button>
+
+        <div class="paketRotation-container">
+          <div class="paket left" id="paket-s">
+            <p class="paket-title">Basic</p>
+            <div class="bulletpoints-container">
+              <p class="price">ab 199&#8364;</p>
+              <p>&#10003; Onepager</p>
+              <p>&#10003; Mobilfreundlich</p>
+              <p>&#10003; Kontaktformular</p>
+              <p>&#10003; Impressum/Datenschutz</p>
+            </div>
+          </div>
+
+          <div class="paket center" id="paket-s-plus">
+            <p class="paket-title">Starter</p>
+            <div class="bulletpoints-container">
+              <p class="price">ab 499&#8364;</p>
+              <p>&#10003; Bis zu 3 Seiten</p>
+              <p>&#10003; Mobilfreundlich</p>
+              <p>&#10003; Google Maps</p>
+              <p>&#10003; DSGVO-Infos</p>
+            </div>
+          </div>
+
+          <div class="paket right" id="paket-premium">
+            <p class="paket-title">Business</p>
+            <div class="bulletpoints-container">
+              <p class="price">ab 1199&#8364;</p>
+              <p>&#10003; 6 bis 10 Seiten</p>
+              <p>&#10003; Cookie Consent Manager</p>
+              <p>&#10003; Performance-Optimierung</p>
+              <p>&#10003; OnPage-SEO mit Keyword-Struktur</p>
+            </div>
+          </div>
+        </div>
+        <!-- Rechter Button -->
+        <button class="rotation-button right">
+          <img
+            class="arrow-forward-icon"
+            src="images/icons/arrow-forward-icon.png"
+          />
+        </button>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-navigation-container">
+        <p class="footer-navigation-title">Navigation</p>
+        <a href="index.html">Home</a>
+        <a href="überuns.html">Über uns</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="preise&pakete.html"
+          >Preise & Pakete</a
+        >
+
+        <div class="socials-wrapper">
+          <p class="footer-socials" id="socialTrigger">Socials</p>
+          <div class="social-tooltip" id="socialTooltip">
+            <a href="https://www.instagram.com/">
+              <img
+                class="footer-social-images"
+                src="images/icons/instagram_icon.png"
+                alt="instagram-link"
+              />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61579019151627">
+              <img
+                class="footer-social-images"
+                src="images/icons/facebook-icon.png"
+                alt="facebook-link"
+              />
+            </a>
+            <a href="https://www.x.com">
+              <img
+                class="footer-social-images"
+                src="images/icons/x-icon.png"
+                alt="facebook-link"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-rechte-container">
+        <p class="footer-rechte-title">Rechtliche Angaben</p>
+        <a href="impressum.html">Impressum</a>
+        <a href="datenschutzerklärung.html"
+          >Datenschutzerklärung</a
+        >
+        <a href="agb.html">AGB</a>
+        <a href="widerrufsbelehrung.html"
+          >Widerrufsbelehrung</a
+        >
+        <p class="copyright-text">
+          &#169; 2025 UpStruct. Alle Rechte vorbehalten.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Links to JavaScript -->
+    <script src="javascript/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+:root {
+  --background-color-dark: #00172f;
+  --background-color-bright: rgb(124, 129, 255);
+  --border-color: rgba(255, 255, 255, 0.3);
+  --title-color: yellow;
+  --title-color-hover: #e6bf00;
+  --title-color-active: #b39800;
+  --title-color-2: rgb(170, 170, 170);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto, arial, sans-serif;
+}
+a {
+  font-family: Roboto, arial, sans-serif;
+  text-decoration: none;
+}
+div {
+  font-family: Roboto, arial, sans-serif;
+}
+
+body {
+  background-image: url("/Images/Background/background-image.png");
+  background-repeat: repeat;
+  width: 100%;
+
+  margin: 0;
+}
+html, body {
+  overflow-x: hidden;
+}
