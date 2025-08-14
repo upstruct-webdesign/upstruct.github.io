@@ -22,7 +22,7 @@ div {
 }
 
 body {
-  background-image: url("/Images/Background/background-image.png");
+  background-image: url("images/background/background-image.png");
   background-repeat: repeat;
   width: 100%;
 
@@ -30,4 +30,5 @@ body {
 }
 html, body {
   overflow-x: hidden;
+
 }
