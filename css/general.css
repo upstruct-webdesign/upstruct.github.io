@@ -23,12 +23,12 @@ div {
 body {
   background-image: url("../../images/background/background-image.png");
   background-repeat: repeat;
-  width: 100%;
   margin: 0;
 }
 html, body {
   overflow-x: hidden;
 }
+
 
 
 
