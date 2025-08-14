@@ -22,7 +22,7 @@ div {
 }
 
 body {
-  background-image: url("/upstruct.github.io/images/background/background-image.png");
+  background-image: url("../../images/background/background-image.png");
   background-repeat: repeat;
   width: 100%;
 
@@ -32,6 +32,7 @@ html, body {
   overflow-x: hidden;
 
 }
+
 
 
 
