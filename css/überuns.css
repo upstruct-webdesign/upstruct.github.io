@@ -1,0 +1,301 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Roboto, arial, sans-serif;
+}
+div {
+  font-family: Roboto, arial, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgb(0, 2, 53), rgb(124, 129, 255));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Main Part */
+main {
+  margin-top: 70px;
+}
+
+/* Mission Statement */
+.mission-statement {
+  max-width: 1000px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 4px 6px rgba(0, 2, 53, 0.25);
+}
+.mission-statement-title {
+  color: yellow;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 50px 0;
+  text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.5);
+}
+.mission-statement-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 20px;
+  max-width: 1000px;
+  box-shadow: 0px 4px 6px rgba(0, 2, 53, 0.25);
+}
+@media (max-width: 600px) {
+  .mission-statement-header {
+    flex-direction: column;
+  }
+}
+.mission-statement-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mission-statement-logo-image {
+  width: 200px;
+  height: 200px;
+}
+.mission-statement-logo-text {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+}
+.mission-statement-header-image {
+  height: 100%;
+  width: 400px;
+  object-fit: cover;
+}
+.mission-statement-content {
+  color: white;
+  padding: 30px 15px;
+  line-height: 25px;
+}
+.text-paragraph {
+  margin-bottom: 15px;
+}
+
+/* Unsere Werte */
+.unsere-werte {
+  max-width: 1000px;
+  box-shadow: 0px 4px 6px rgba(0, 2, 53, 0.25);
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.unsere-werte-title {
+  color: yellow;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 50px 0;
+  text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.5);
+}
+.unsere-werte-stars {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+@media (max-width: 800px) {
+  .unsere-werte-stars {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.unsere-werte-star {
+  width: 100px;
+  height: 100px;
+}
+.unsere-werte-star-text {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.unsere-werte-star-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(124, 163, 255);
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.75);
+  margin: 20px;
+  padding: 0px;
+  transition: margin 0.3s ease, padding 0.3s ease, border-radius 0.3s ease;
+}
+.unsere-werte-star-container:hover {
+  margin: 0;
+  padding: 20px;
+  border-radius: 100px;
+}
+.unsere-werte-text {
+  color: white;
+  padding: 30px 15px;
+  line-height: 25px;
+}
+
+/* Arbeitsweise */
+.arbeitsweise {
+  max-width: 1000px;
+  box-shadow: 0px 4px 6px rgba(0, 2, 53, 0.25);
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.arbeitsweise-title {
+  color: yellow;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 50px 0;
+  text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.5);
+}
+.arbeitsschritt-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px rgba(0, 2, 53, 0.3);
+  max-height: 200px;
+}
+.arbeitsschritt-title {
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  font-weight: bold;
+  width: 280px;
+  margin-left: 10px;
+}
+@media (max-width: 550px) {
+  .arbeitsschritt-title {
+    width: 200px;
+  }
+}
+.arbeitsschritt-text {
+  color: white;
+  font-size: 14px;
+  line-height: 25px;
+  flex: 1;
+  padding: 10px;
+  max-height: 200px;
+  border-left: solid 3px rgba(0, 2, 53, 0.3);
+  display: flex;
+  align-items: center;
+}
+.arbeitsschritte {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+/* Q & A */
+.q-and-a {
+  max-width: 1000px;
+  box-shadow: 0px 4px 6px rgba(0, 2, 53, 0.25);
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.q-and-a-title {
+  color: yellow;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 50px 0;
+  text-shadow: 3px 3px 10px rgba(255, 255, 255, 0.5);
+}
+.q-and-a-infotext {
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+.q-and-a-contactlink,
+.q-and-a-instalink,
+.q-and-a-facebooklink {
+  text-decoration: none;
+  color: yellow;
+}
+.q-and-a-contactlink:hover,
+.q-and-a-instalink:hover,
+.q-and-a-facebooklink:hover {
+  color: rgb(192, 192, 0);
+}
+.q-and-a-image {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  padding: 30px 0;
+}
+.q-and-a-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  text-align: center;
+  justify-content: center;
+}
+.q-and-a-content-left {
+  flex: 1;
+}
+.q-and-a-content-right {
+  flex: 1;
+}
+.q-and-a-question-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 15px;
+  margin-bottom: 10px;
+  background-color: rgb(0, 2, 53, 0.5);
+  border-radius: 10px;
+  padding: 20px 10px;
+  margin: 10px;
+}
+.question-topic {
+  color: white;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.question-container {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.question-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(124, 163, 255);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.question {
+  color: white;
+  font-size: 16px;
+  flex: 1;
+  padding-left: 10px;
+  text-decoration: none;
+  text-align: left;
+}
+.question:hover {
+  color: rgb(168, 168, 168);
+}
