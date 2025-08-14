@@ -21,21 +21,8 @@ div {
   font-family: Roboto, arial, sans-serif;
 }
 body {
-  background-image: url("../../images/background/background-image.png");
-  background-repeat: repeat;
   margin: 0;
 }
 html, body {
   overflow-x: hidden;
 }
-
-
-
-
-
-
-
-
-
-
-
