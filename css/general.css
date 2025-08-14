@@ -20,18 +20,17 @@ a {
 div {
   font-family: Roboto, arial, sans-serif;
 }
-
-body {
-  background-image: url("../../images/background/background-image.png");
-  background-repeat: repeat;
-  width: 100%;
+html, body {
+  overflow-x: hidden;
   height: 100%;
   margin: 0;
 }
-html, body {
-  overflow-x: hidden;
-
+body {
+  background-image: url("../../images/background/background-image.png");
+  background-repeat: repeat;
 }
+
+
 
 
 
